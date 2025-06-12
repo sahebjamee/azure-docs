@@ -40,7 +40,7 @@ Route-maps lets you perform route aggregation, route filtering, and gives you th
 
    :::image type="content" source="./media/route-maps-about/architecture.png" alt-text="Screenshot shows a diagram of the Virtual WAN architecture using Route-map."lightbox="./media/route-maps-about/architecture.png":::
 
-* **Route aggregation:** Route-maps lets you reduce the number of routes coming in and/or out of a connection by summarizing. (Example: 10.2.1.0.0/24, 10.2.2.0/24 and 10.2.3.0/24 can be summarized to 10.2.0.0/16).
+* **Route aggregation:** Route-maps lets you reduce the number of routes coming in and/or out of a connection by summarizing. (Example: 10.2.1.0/24, 10.2.2.0/24 and 10.2.3.0/24 can be summarized to 10.2.0.0/16).
 * **Route Filtering:** Route-maps lets you exclude routes that are advertised or received from ExpressRoute connections, site-to-site VPN connections, VNet connections, and point-to-site connections.
 * **Modify BGP attributes:** Route-maps lets you modify AS-PATH and BGP Communities. You can now add or set ASNs (Autonomous system numbers).
 
